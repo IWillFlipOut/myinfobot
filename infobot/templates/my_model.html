@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Model</title>
+</head>
+<body>
+    <h1>My Model</h1>
+    <ul>
+    {% for model in my_models %}
+        <li>{{ model.name }}: {{ model.description }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
