@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Default Title{% endblock %}</title>
+    {% block extrahead %}{% endblock %}
+</head>
+<body>
+    <header>
+        <!-- Navigation, logo, etc. -->
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Copyright info, etc. -->
+    </footer>
+
+    {% block extrabody %}{% endblock %}
+</body>
+</html>

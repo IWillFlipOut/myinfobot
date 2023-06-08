@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2fgqn0tk+_!w7ezj^(jf#pp&!5xela&#@=gc)hww0nnu%ae#5c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.33.10', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.33.10', '10.0.0.39', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'infobot',
     'authentication',
     'file_upload',
+    'chatbot',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbots</h1>
+    {% for chatbot in chatbots %}
+        <h2>{{ chatbot.name }}</h2>
+        <p>{{ chatbot.description }}</p>
+    {% endfor %}
+</body>
+</html>
